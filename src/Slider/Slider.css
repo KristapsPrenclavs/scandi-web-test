@@ -1,0 +1,39 @@
+.app {
+  display: flex;
+}
+.container {
+  max-width: 90vw;
+  max-height: 90vh;
+  width: auto;
+  margin: 3vh auto;
+  height: 60vh;
+}
+
+.carousel {
+  height: 100%;
+  width: auto;
+  display: flex;
+  position: relative;
+}
+.slider {
+  display: flex;
+  transition: all 0.4s;
+}
+
+.slider .slide {
+  border: 0.5vh solid orange;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.plus-minus {
+  position: inherit;
+}
+.plus-minus .increase {
+  width: 4vh;
+}
+
+.plus-minus .decrease {
+  width: 4vh;
+}

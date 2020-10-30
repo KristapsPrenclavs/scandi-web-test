@@ -1,0 +1,13 @@
+.decrease {
+  cursor: pointer;
+  margin: 5px;
+}
+
+.increase {
+  cursor: pointer;
+  margin: 5px;
+}
+
+.plus-minus {
+  margin-left: 40%;
+}

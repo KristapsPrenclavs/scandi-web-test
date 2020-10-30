@@ -1,0 +1,14 @@
+.arrows {
+  top: 10px;
+  cursor: pointer;
+}
+
+.arrow-next {
+  position: absolute;
+  right: 10px;
+}
+
+.arrow-prev {
+  position: absolute;
+  left: 10px;
+}
